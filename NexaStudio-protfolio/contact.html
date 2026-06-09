@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NexaStudio | Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- ═══ NAVBAR ═══ -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <a class="logo" href="index.html">Nexa<span>Studio</span></a>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html"><i class="bi bi-house-fill"></i> Home</a></li>
+      <li><a href="about.html"><i class="bi bi-people-fill"></i> About Us</a></li>
+      <li><a href="contact.html"><i class="bi bi-envelope-fill"></i> Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══ PAGE HERO ═══ -->
+  <section class="page-hero">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you. Drop us a message and we'll get back within 24 hours.</p>
+  </section>
+
+  <!-- ═══ CONTACT SECTION ═══ -->
+  <section class="section section-alt">
+    <div class="contact-grid">
+
+      <!-- Info Side -->
+      <div class="contact-info">
+        <h3>Get In Touch</h3>
+        <p>
+          Have a project in mind, a question about our services, or just want to say hello?
+          Reach out through the form or use any of the contact details below.
+        </p>
+
+        <div class="info-item">
+          <div class="info-icon"><i class="bi bi-geo-alt-fill"></i></div>
+          <div>
+            <strong>Address</strong>
+            <span>Kathmandu, Bagmati Province, Nepal</span>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><i class="bi bi-envelope-fill"></i></div>
+          <div>
+            <strong>Email</strong>
+            <span>hello@nexastudio.dev</span>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><i class="bi bi-telephone-fill"></i></div>
+          <div>
+            <strong>Phone</strong>
+            <span>+977 98X-XXXXXXX</span>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><i class="bi bi-clock-fill"></i></div>
+          <div>
+            <strong>Office Hours</strong>
+            <span>Sun – Fri, 9:00 AM – 6:00 PM NPT</span>
+          </div>
+        </div>
+
+        <div class="social-row">
+          <a href="#" class="soc-btn li" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="soc-btn fb" title="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="soc-btn ig" title="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="soc-btn gh" title="GitHub"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+
+      <!-- Form Side -->
+      <div class="contact-form">
+        <h3>Send a Message</h3>
+
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required/>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required/>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="">Select a topic…</option>
+              <option>Web Design Project</option>
+              <option>Web Development</option>
+              <option>General Inquiry</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" placeholder="Tell us about your project or question…" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width:100%;">
+            <i class="bi bi-send-fill"></i> Send Message
+          </button>
+
+          <div id="toast">
+            <i class="bi bi-check-circle-fill"></i> Message sent! We'll be in touch soon.
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">Nexa<span>Studio</span></div>
+        <p>Building meaningful digital experiences, one project at a time.</p>
+        <div class="footer-socials">
+          <a href="#" class="soc-btn li" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="soc-btn fb" title="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="soc-btn ig" title="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="soc-btn gh" title="GitHub"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html"><i class="bi bi-chevron-right"></i> Home</a></li>
+          <li><a href="about.html"><i class="bi bi-chevron-right"></i> About Us</a></li>
+          <li><a href="contact.html"><i class="bi bi-chevron-right"></i> Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#"><i class="bi bi-chevron-right"></i> LinkedIn</a></li>
+          <li><a href="#"><i class="bi bi-chevron-right"></i> GitHub</a></li>
+          <li><a href="#"><i class="bi bi-chevron-right"></i> Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span class="current-year"></span> NexaStudio. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
